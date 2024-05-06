@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('space1.jpeg'); /* Replace 'your-image.jpg' with the path to your background image */
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the background image */
+    color: #fff; /* White text color */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.courses {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.course {
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    background-color: rgba(128, 128, 128, 0.5); /* Semi-transparent grey background color */
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.course img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px 5px 0 0;
+}
+
+.course h2 {
+    margin-top: 0;
+}
+
+.course p {
+    color: #ccc; /* Light grey text color */
+}
+
+.btn-enroll {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #ffd700; /* Yellow button color */
+    color: #1a1a1a; /* Dark text color */
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.btn-enroll:hover {
+    background-color: #ffcc00; /* Darker yellow color on hover */
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+}
