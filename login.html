@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="styles1.css">
+</head>
+<body>
+            <div class="container">
+            <h2>Login</h2>
+            <form id="loginForm">
+                <div class="form-group">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username">
+                </div>
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password">
+                </div>
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </a>
+
+    <script>
+        document.getElementById("loginForm").addEventListener("submit", function(event) {
+            event.preventDefault();
+            // Get the values of username and password
+            var username = document.getElementById("username").value;
+            var password = document.getElementById("password").value;
+            
+            // Check if password length is at least 6 characters
+            if (password.length < 6) {
+                alert("Password must be at least 6 characters long.");
+                return;
+            }
+
+            // Check if username is empty
+            if (!username) {
+                alert("Username cannot be empty.");
+                return;
+            }
+
+            // For demonstration purposes, let's just redirect to home.html after successful login
+            window.location.href = "home.html";
+        });
+    </script>
+</body>
+</html>
