@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo img {
+    max-height: 40px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav ul li a:hover {
+    color: #ffd700;
+}
+
+.auth a {
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 8px 20px;
+    border-radius: 5px;
+}
+
+.auth a:hover {
+    background-color: #ffd700;
+    color: #1a1a1a;
+}
+
+.hero {
+    background-image: url('picture1.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 200px 0;
+}
+
+.hero-content {
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.btn-get-started {
+    color: #fff;
+    background-color: #ffd700;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-get-started:hover {
+    background-color: #ffcc00;
+}
+.footer {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo img {
+    max-height: 40px;
+}
+
+.footer-links ul,
+.footer-social ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-links ul li,
+.footer-social ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.footer-links ul li a,
+.footer-social ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+.footer-links ul li a:hover,
+.footer-social ul li a:hover {
+    color: #ffd700;
+}
+
+
